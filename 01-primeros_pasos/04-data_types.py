@@ -41,3 +41,8 @@ informacion_personal = {
     'age': 29,
     'cats': 5
 }
+
+print(edad)
+print(type(edad))
+
+print(nombre.upper())

@@ -1,4 +1,4 @@
-name = 'Ricardo'  # 6
+# 6
 # print(name)  # Ricardo
 
 # print(name[0])  # R
@@ -14,7 +14,13 @@ name = 'Ricardo'  # 6
 # [Start:Stop]
 # Ricardo
 # Ric
-print(name[0:3])
+# print(name[0:3])
 
 # [Start:Stop:StepOver]
-print(name[0:3:2])
+# print(name[0:3:2])
+
+# ¿Como puedo poner mi nombre al revés?
+name = 'Ricardo'
+# [Start:Stop:StepOver]
+name_reverse = name[::-1]
+print(name_reverse)

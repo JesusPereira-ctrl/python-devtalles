@@ -4,7 +4,57 @@
 
 ## Instructions to install Python
 
+### Windows
+
+1. Go to [Python Page](https://www.python.org/)
+
+2. Install the latest version in the section Downloads
+
+3. Execute the installer
+
+4. make sure in the installation mark the 'Add Python to path' option
+
+5. one time the installation end check in the terminal with the command `python --version`
+
+### MacOS and Linux
+
 I use Linux so the tool i recommended for this Operative System is [Pyenv](https://github.com/pyenv/pyenv) this is a version manager like NVM for NodeJS but for Python
+
+This tool works in windows but i don't know how this works in this OS so i don't recommend that
+
+**In MacOS you can use Brew for the installation in this case i show how to install with curl**
+
+1. Install Pyenv
+
+   ```zsh
+   curl -fsSL https://pyenv.run | bash
+   ```
+
+2. Set up your shell environment for Pyenv
+
+   ```zsh
+   ~/.pyenv/bin/pyenv init --install
+   ```
+
+3. Restart your shell
+
+   ```zsh
+   exec "$SHELL"
+   ```
+
+4. Install dependencies (this works in linux Ubuntu/Debian/Mint, for MacOS check [this link](https://github.com/pyenv/pyenv/wiki#suggested-build-environment))
+
+   ```zsh
+   sudo apt update; sudo apt install make build-essential libssl-dev zlib1g-dev \
+   libbz2-dev libreadline-dev libsqlite3-dev curl git \
+   libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev libzstd-dev
+   ```
+
+5. Install Python with `pyenv install <python version>`
+
+6. Set python version has global `pyenv global <python version>`
+
+7. Check version with `python --version` (with pyenv is not necessary use python3)
 
 ## Extensions for VsCode
 

@@ -4,6 +4,18 @@
 
 ## Instructions to install Python
 
+### Windows
+
+1. Go to [Python Page](https://www.python.org/)
+
+2. Install the latest version in the section Downloads
+
+3. Execute the installer
+
+4. make sure in the installation mark the 'Add Python to path' option
+
+5. one time the installation end check in the terminal with the command `python --version`
+
 I use Linux so the tool i recommended for this Operative System is [Pyenv](https://github.com/pyenv/pyenv) this is a version manager like NVM for NodeJS but for Python
 
 ## Extensions for VsCode

@@ -65,3 +65,19 @@ This tool works in windows but i don't know how this works in this OS so i don't
 5.  [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 6.  [AutoPep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8)
 7.  [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+## Commands for Python
+
+the command python depends of OS if you are in Linux or MacOS is `python3` and for windows is `python` so i use python for reflex booth
+
+- See version of Python installed
+
+  ```zsh
+  python --version
+  ```
+
+- Execute a python file
+
+  ```zsh
+  python <file>
+  ```

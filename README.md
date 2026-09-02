@@ -68,7 +68,9 @@ This tool works in windows but i don't know how this works in this OS so i don't
 
 ## Commands for Python
 
-the command python depends of OS if you are in Linux or MacOS is `python3` and for windows is `python` so i use python for reflex booth
+the command python depends of OS if you are in Linux or MacOS is `python3` and for windows is `python` so i use python for reflex booth and the same time for `pip`, `pip3` for windows and the rest with `pip`
+
+Pip is equal to pip install packages
 
 - See version of Python installed
 
@@ -80,4 +82,28 @@ the command python depends of OS if you are in Linux or MacOS is `python3` and f
 
   ```zsh
   python <file>
+  ```
+
+- See PIP version
+
+  ```zsh
+  pip --version
+  ```
+
+- See all packages installed with pip
+
+  ```zsh
+  pip list
+  ```
+
+- Install package with pip
+
+  ```zsh
+  pip install <package>
+  ```
+
+- Update pip
+
+  ```zsh
+  pip install --upgrade pip
   ```

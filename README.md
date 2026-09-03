@@ -166,3 +166,34 @@ Pip is equal to pip install packages
 
      deactivate
      ```
+
+2. Poetry
+   - Install poetry in pip
+
+     ```zsh
+     pip install poetry
+     ```
+
+   - Create virtual env
+
+     ```zsh
+     poetry init
+     ```
+
+   - Install package
+
+     ```zsh
+     poetry add <package-name>
+     ```
+
+   - Activate virtual environment in shell
+
+     ```zsh
+     eval $(poetry env activate)
+     ```
+
+   - Deactivate virtual environment in shell
+
+     ```zsh
+     exit
+     ```

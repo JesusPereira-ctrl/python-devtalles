@@ -107,3 +107,31 @@ Pip is equal to pip install packages
   ```zsh
   pip install --upgrade pip
   ```
+
+- Make a virtual environment
+
+  ```zsh
+  python -m venv <name-virtual-environment>
+  ```
+
+- Activate virtual env
+
+  ```zsh
+  # Linux and MacOS
+  source <name-virtual-environment>/bin/activate
+
+  # Windows
+  <name-virtual-environment>\bin\activate
+  ```
+
+- Deactivate virtual env
+
+  ```zsh
+  deactivate
+  ```
+
+- Make a `requirements.txt` for other developers
+
+  ```zsh
+  pip freeze > requirements.txt
+  ```

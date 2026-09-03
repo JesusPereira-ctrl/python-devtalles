@@ -135,3 +135,34 @@ Pip is equal to pip install packages
   ```zsh
   pip freeze > requirements.txt
   ```
+
+## Alternatives for create a virtual environment
+
+1. Pipenv
+   - Install Pipenv in pip
+
+     ```zsh
+     pip install pipenv
+     ```
+
+   - Install packages in virtual env
+
+     ```zsh
+     pipenv install <package>
+     ```
+
+   - Activate virtual env in shell
+
+     ```zsh
+     pipenv shell
+     ```
+
+   - deactivate virtual env in shell
+
+     ```zsh
+     exit
+
+     #or
+
+     deactivate
+     ```

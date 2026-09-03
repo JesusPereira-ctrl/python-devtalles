@@ -7,7 +7,7 @@ user = {
 }
 
 with open('datos.json', 'w') as file:
-    json.dump(user, file, indent=4)
+    json.dump(user, file, indent=2)
 
 with open('datos.json', 'r') as file:
     data_read = json.load(file)

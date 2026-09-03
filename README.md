@@ -107,3 +107,99 @@ Pip is equal to pip install packages
   ```zsh
   pip install --upgrade pip
   ```
+
+- Make a virtual environment
+
+  ```zsh
+  python -m venv <name-virtual-environment>
+  ```
+
+- Activate virtual env
+
+  ```zsh
+  # Linux and MacOS
+  source <name-virtual-environment>/bin/activate
+
+  # Windows
+  <name-virtual-environment>\bin\activate
+  ```
+
+- Deactivate virtual env
+
+  ```zsh
+  deactivate
+  ```
+
+- Make a `requirements.txt` for other developers
+
+  ```zsh
+  pip freeze > requirements.txt
+  ```
+
+- Install packages declared in `requirements.txt`
+
+  ```zsh
+  pip install -r requirements.txt
+  ```
+
+## Alternatives for create a virtual environment
+
+1. Pipenv
+   - Install Pipenv in pip
+
+     ```zsh
+     pip install pipenv
+     ```
+
+   - Install packages in virtual env
+
+     ```zsh
+     pipenv install <package>
+     ```
+
+   - Activate virtual env in shell
+
+     ```zsh
+     pipenv shell
+     ```
+
+   - deactivate virtual env in shell
+
+     ```zsh
+     exit
+
+     #or
+
+     deactivate
+     ```
+
+2. Poetry
+   - Install poetry in pip
+
+     ```zsh
+     pip install poetry
+     ```
+
+   - Create virtual env
+
+     ```zsh
+     poetry init
+     ```
+
+   - Install package
+
+     ```zsh
+     poetry add <package-name>
+     ```
+
+   - Activate virtual environment in shell
+
+     ```zsh
+     eval $(poetry env activate)
+     ```
+
+   - Deactivate virtual environment in shell
+
+     ```zsh
+     exit
+     ```

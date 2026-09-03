@@ -136,6 +136,12 @@ Pip is equal to pip install packages
   pip freeze > requirements.txt
   ```
 
+- Install packages declared in `requirements.txt`
+
+  ```zsh
+  pip install -r requirements.txt
+  ```
+
 ## Alternatives for create a virtual environment
 
 1. Pipenv
